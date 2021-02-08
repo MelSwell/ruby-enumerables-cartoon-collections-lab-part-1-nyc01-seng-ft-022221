@@ -12,4 +12,3 @@ def list_dwarves(array)
   array.each_with_index { |e, i| p "#{i+1}: #{e}"  }
 end
 
-puts list_dwarves(["Dopey", "Grumpy", "Bashful"])
