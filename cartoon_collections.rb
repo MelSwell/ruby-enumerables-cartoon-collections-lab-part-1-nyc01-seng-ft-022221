@@ -9,7 +9,7 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-  array.each_with_index { |e, i|  "#{i+1}: #{e}"  }
+  array.each_with_index { |e, i| p "#{i+1}: #{e}"  }
 end
 
 puts list_dwarves(["Dopey", "Grumpy", "Bashful"])
